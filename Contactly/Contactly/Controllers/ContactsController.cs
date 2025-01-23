@@ -1,4 +1,6 @@
 ﻿using Contactly.Data;
+using Contactly.Models;
+using Contactly.Models.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,9 +26,20 @@ namespace Contactly.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddContact()
+        public IActionResult AddContact(AddContactRequestDto request)
         {
+            var domainModelContact = new Contact
+            {
+                Id =Guid.NewGuid(),
+                Name = request.Name,
+                Email = request.Email,
+                Phone = request.Phone,
+                Favorite = request.Favorite
+            };
 
+            dbContext.Contacts.Add(domainModelContact);
+            dbContext.SaveChanges();
+            return Ok(domainModelContact);
         }
     }
 }
