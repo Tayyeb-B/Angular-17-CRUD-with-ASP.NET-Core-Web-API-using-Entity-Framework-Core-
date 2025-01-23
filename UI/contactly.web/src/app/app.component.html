@@ -1,4 +1,11 @@
-<div class="container text-center mt-5">
-  <h1 class="text-primary">Bootstrap is Working!</h1>
-  <button class="btn btn-success">Click Me</button>
-</div>
+@if (contacts$ | async; as contacts)
+  {
+    @if(contacts.length>0){
+
+      @for (item of contacts; track $index) {
+        <p>{{item.name}}</p>
+      }
+    }@else{
+      <p>no contacts found...</p>
+    }
+}
