@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|c:\\users\\computer house\\desktop\\crud\\contactly\\contactly\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|solutionrelative:contactly\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|c:\\users\\computer house\\desktop\\crud\\contactly\\contactly\\data\\contactlydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|solutionrelative:contactly\\data\\contactlydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|c:\\users\\computer house\\desktop\\crud\\contactly\\contactly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|solutionrelative:contactly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|c:\\users\\computer house\\desktop\\crud\\contactly\\contactly\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD876BF8-FBD8-46D7-8047-E8CCC75A7EFE}|Contactly\\Contactly.csproj|solutionrelative:contactly\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Contactly\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Contactly\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:47:04.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Program.cs",
+              "RelativeDocumentMoniker": "Contactly\\Program.cs",
+              "ToolTip": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Program.cs",
+              "RelativeToolTip": "Contactly\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:41:46.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactlyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Data\\ContactlyDbContext.cs",
+              "RelativeDocumentMoniker": "Contactly\\Data\\ContactlyDbContext.cs",
+              "ToolTip": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Data\\ContactlyDbContext.cs",
+              "RelativeToolTip": "Contactly\\Data\\ContactlyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:30:48.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Models\\Domain\\Contact.cs",
+              "RelativeDocumentMoniker": "Contactly\\Models\\Domain\\Contact.cs",
+              "ToolTip": "C:\\Users\\computer house\\Desktop\\crud\\Contactly\\Contactly\\Models\\Domain\\Contact.cs",
+              "RelativeToolTip": "Contactly\\Models\\Domain\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:21:14.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
