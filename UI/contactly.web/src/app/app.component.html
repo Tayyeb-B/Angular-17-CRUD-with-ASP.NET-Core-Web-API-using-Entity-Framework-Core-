@@ -1,11 +1,33 @@
-@if (contacts$ | async; as contacts)
+<div class="flex h-screen">
+  <div class="w-50">
+
+  </div>
+  <div class="overflow-auto w-50">
+    @if (contacts$ | async; as contacts)
   {
     @if(contacts.length>0){
 
-      @for (item of contacts; track $index) {
-        <p>{{item.name}}</p>
-      }
+      
+        <ul>
+          @for (item of contacts; track $index) {
+            <li class="p-2 bg-primary border-b-2 border-white text-white">
+              <span class="font-light">{{item.name}}</span>
+              <div>
+                <span>
+                  <span>{{item.email}}</span>
+                </span>
+              </div>
+              <span>{{item.phone}}</span>
+            </li>
+          }
+        </ul>
+      
     }@else{
       <p>no contacts found...</p>
     }
 }
+  </div>
+</div>
+
+
+
