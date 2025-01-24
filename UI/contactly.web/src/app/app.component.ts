@@ -40,6 +40,15 @@ export class AppComponent {
     });
   }
 
+  onDelete(id: string){
+    this.http.delete(`https://localhost:7193/api/Contacts/${id}`)
+    .subscribe({
+      next: (value) => {
+        alert('Contact deleted successfully');
+        this.contacts$ = this.getContacts();
+      }
+    });
+  }
   private getContacts(): Observable<Contact[]>{
   return this.http.get<Contact[]>('https://localhost:7193/api/Contacts');
   }
