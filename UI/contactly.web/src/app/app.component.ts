@@ -32,7 +32,12 @@ export class AppComponent {
       phone: this.contactsForm.value.phone,
       favorite: this.contactsForm.value.favorite
     }
-    this.http.post('https://localhost:7193/api/Contacts', addContactRequest).subscribe();
+    this.http.post('https://localhost:7193/api/Contacts', addContactRequest).subscribe({
+      next:(value) => {
+        this.contacts$ = this.getContacts();
+        this.contactsForm.reset();
+      }
+    });
   }
 
   private getContacts(): Observable<Contact[]>{
